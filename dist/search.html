@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--
+    <link rel="icon" href="../../favicon.ico">
+    -->
+
+    <title>a2b - Get from point A to point B</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bower_components/tether/dist/css/tether.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+ <body>
+   <div class="wrapper">
+   <nav class="navbar navbar-dark bg-inverse">
+     <a class="navbar-brand" href="#">a2b</a>
+     <ul class="nav navbar-nav float-xs-right">
+       <li class="nav-item active">
+         <a class="nav-link" href="#">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Add Route</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">About</a>
+       </li>
+     </ul>
+   </nav>
+
+   <div class="container-fluid content">
+     <div class="row">
+       <div class="col-xs-12">
+         <div class="search-form">
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="from">From City</label>
+                <input type="text" class="form-control" id="from" placeholder="From City">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="to">To City</label>
+                <input type="text" class="form-control" id="to" placeholder="To City">
+              </div>
+              <button type="submit" class="btn btn-secondary">Search</button>
+            </form>
+         </div>
+       </div>
+     </div>
+     <div class="row bottom">
+       <div class="col-xs-4 itineraries-list">
+         <div class="itinerary card">
+           <div class="card-block">
+             <p class="card-test">Bus to Surat Thani, Thailand &rarr; Ferry to Phuket, Thailand</p>
+           </div>
+         </div>
+         <div class="itinerary card">
+           <div class="card-block">
+             <p class="card-test">Bus to Phuket, Thailand</p>
+           </div>
+         </div>
+         <div class="itinerary card">
+           <div class="card-block">
+             <p class="card-test">Bus to Phuket, Thailand</p>
+           </div>
+         </div>
+         <div class="alert alert-danger">Please enter something in the form</div>
+         <div class="alert alert-info">No results, sorry</div>
+       </div>
+       <div class="col-xs-8 itineraries-map">Map here</div>
+     </div>
+   </div><!-- /.container -->
+   </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/tether/dist/js/tether.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

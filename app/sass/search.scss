@@ -1,0 +1,46 @@
+/* test */
+$bg-color: #333;
+$list-color: #fff;
+
+nav.bg-inverse {
+  background-color: $bg-color !important;
+}
+
+.content {
+}
+.itineraries-map {
+  background-color: $list-color;
+  background-image: url(../img/map.png);
+  position: fixed;
+  right: 0;
+  top: 7em;
+  bottom: 0;
+}
+.search-form {
+  margin-bottom: 1em;
+}
+.wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+}
+.itineraries-list {
+  background-color: #fff;
+  padding: 0;
+  position: absolute;
+  top: 7em;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+.itinerary {
+  margin: 0;
+  border-radius: 0;
+  border-top-width: 0;
+  color: #000;
+  cursor: pointer;
+}
+.itinerary:hover {
+  background-color: #eee;
+}
