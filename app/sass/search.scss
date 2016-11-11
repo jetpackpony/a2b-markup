@@ -5,26 +5,19 @@ nav.bg-inverse {
   background-color: $bg-color !important;
 }
 
-.content {
-}
 .itineraries-map {
   background-color: $list-color;
   background-image: url(../img/map.png);
-  position: fixed;
+  height:100%;
+}
+.itineraries-map-container {
+  position: absolute;
   right: 0;
   top: 7em;
   bottom: 0;
+  padding: 0;
 }
-.search-form {
-  margin-bottom: 1em;
-}
-.wrapper {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-}
-.itineraries-list {
+.itineraries-list-container {
   background-color: #fff;
   padding: 0;
   position: absolute;
