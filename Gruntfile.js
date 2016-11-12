@@ -102,6 +102,17 @@ module.exports = function(grunt) {
         dest: '<%= config.dist %>/assets/js/bower.js'
       }
     },
+    copy: {
+      main: {
+        files: [{
+          expand: true,
+          cwd: '<%= config.src %>/img/',
+          src: '**',
+          dest: '<%= config.dist %>/img/',
+          filter: 'isFile'
+        }]
+      },
+    },
 
     // Before generating any new files,
     // remove any previously-created files.
@@ -115,12 +126,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-bower-concat');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('server', [
-    'clean',
-    'bower_concat',
-    'assemble',
-    'sass',
+    'build',
     'connect:livereload',
     'watch'
   ]);
@@ -128,6 +137,7 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'clean',
     'bower_concat',
+    'copy',
     'assemble',
     'sass'
   ]);
