@@ -3,8 +3,15 @@ title: Itinerary list
 ---
 {{> mini-search-form}}
 <div class="row bottom-split">
-  <div class="col-xs-6 left-side">
+  <div class="col-xs-4 left-side">
+    {{> itinerary-list}}
   </div>
-  <div class="col-xs-6 right-side">
+  <div class="col-xs-8 right-side">
+  </div>
+  <div class="col-xs-4 details-slider hidden" id="itinerary-details">
+    {{> itinerary-details}}
+  </div>
+  <div class="col-xs-4 details-slider hidden" id="route-details">
+    {{> route-details}}
   </div>
 </div>

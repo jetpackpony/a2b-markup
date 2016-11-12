@@ -21,6 +21,8 @@ a:hover {
  */
 $images: "../img";
 $bg-image: "#{$images}/sea.jpg";
+$dark-bg: #1e1a16;
+$light-bg: #fff;
 
 html,
 body {
@@ -28,7 +30,7 @@ body {
 }
 body {
   color: #fff;
-  background-color: #333;
+  background-color: $dark-bg;
   text-align: left;
   background:
     linear-gradient(
