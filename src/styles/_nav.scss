@@ -4,29 +4,31 @@ $nav-link-active: #fff;
 /*
  * Link colors
  */
-.nav .nav-link {
-  padding: .25rem 0;
-  font-weight: bold;
-  color: $nav-link-inactive;
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-  text-decoration: none;
-}
+.nav {
 
-.nav .nav-link:hover,
-.nav .nav-link:focus {
-  border-bottom-color: $nav-link-inactive;
-}
+  .nav-link {
+    padding: .25rem 0;
+    font-weight: bold;
+    color: $nav-link-inactive;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+    text-decoration: none;
+  }
 
-.nav .nav-link + .nav-link {
-  margin-left: 1rem;
-}
+  .nav-link:hover,
+  .nav-link:focus {
+    border-bottom-color: $nav-link-inactive;
+  }
 
-.nav .active {
-  color: $nav-link-active;
-  border-bottom-color: $nav-link-active;
-}
+  .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
 
+  .active {
+    color: $nav-link-active;
+    border-bottom-color: $nav-link-active;
+  }
+}
 /*
  * Logo image
  */

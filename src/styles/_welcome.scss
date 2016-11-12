@@ -1,7 +1,6 @@
 .welcome {
+  @extend .centered;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 5%;
 
   // Message alignment
@@ -19,11 +18,7 @@
 
 .welcome, .login {
   @extend .text-xs-center;
-
-  // Font styles
-  font-size: 1.1rem;
-  font-weight: 300;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  @extend .text-shadow;
 
   // Login and register fonts
   .login-form {

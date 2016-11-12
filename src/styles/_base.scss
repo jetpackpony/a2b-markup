@@ -38,3 +38,15 @@ body {
   background-size: cover;
 }
 
+.text-shadow {
+  // Font styles
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+.centered {
+  margin-right: auto;
+  margin-left: auto;
+}
+
