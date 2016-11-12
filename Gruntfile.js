@@ -52,6 +52,10 @@ module.exports = function(grunt) {
         files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml}'],
         tasks: ['assemble']
       },
+      copy: {
+        files: ['<%= config.src %>/img/*'],
+        tasks: ['copy']
+      },
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'
@@ -108,7 +112,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: '<%= config.src %>/img/',
           src: '**',
-          dest: '<%= config.dist %>/img/',
+          dest: '<%= config.dist %>/assets/img/',
           filter: 'isFile'
         }]
       },
