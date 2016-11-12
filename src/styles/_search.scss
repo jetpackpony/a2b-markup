@@ -1,0 +1,8 @@
+.search {
+  @extend .text-shadow;
+
+  .form-container {
+    @extend .centered;
+    @extend .text-xs-center;
+  }
+}
