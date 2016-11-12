@@ -1,9 +1,6 @@
 @import "tether";
 @import "bootstrap";
 
-$color: black;
+@import "_base";
+@import "_welcome";
 
-body {
-  background-color: $color;
-  color: white;
-}
