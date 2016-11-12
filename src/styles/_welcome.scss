@@ -1,6 +1,4 @@
 .welcome {
-  @extend .text-xs-center;
-
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -15,6 +13,7 @@
   // Register form alignment
   .register-container {
     padding-left: 2.25em;
+    padding-top: .4em;
   }
 }
 
@@ -29,7 +28,6 @@
   // Login and register fonts
   .login-form {
     max-width: 18em;
-    padding-top: .4em;
 
     .social {
       margin-bottom: 2em;
