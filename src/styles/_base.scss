@@ -18,6 +18,7 @@ a:hover {
 /*
  * Base structure
  */
+$bg-image: "../img/sea.jpg";
 
 html,
 body {
@@ -27,5 +28,12 @@ body {
   color: #fff;
   background-color: #333;
   text-align: left;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url($bg-image);
+  background-size: cover;
 }
 
