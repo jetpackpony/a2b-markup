@@ -1,0 +1,26 @@
+.bottom-split {
+  background-color: #fff;
+  color: #000;
+
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7rem;
+  bottom: 0;
+
+  .left-side, .right-side {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  .left-side {
+    left: 0;
+    padding-bottom: 15px;
+  }
+  .right-side {
+    right: 0;
+    padding: 0;
+    background-image: url("#{$images}/map.png");
+  }
+}

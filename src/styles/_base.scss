@@ -19,7 +19,8 @@ a:hover {
 /*
  * Base structure
  */
-$bg-image: "../img/sea.jpg";
+$images: "../img";
+$bg-image: "#{$images}/sea.jpg";
 
 html,
 body {
