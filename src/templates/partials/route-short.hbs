@@ -1,0 +1,19 @@
+<div class="route-short
+     {{#if route.highlighted}}
+      highlighted
+    {{/if}}
+  ">
+  <div class="row">
+    <div class="col-xs-8 company-name">
+      <h2>{{route.company-name}}</h2>
+    </div>
+    <div class="col-xs-4 price">${{route.price}}</div>
+  </div>
+  <div class="row cities">
+    <div class="col-xs-8">{{route.cities}}</div>
+  </div>
+  <div class="row info">
+    <div class="col-xs-8 transport">{{route.transport}}</div>
+    <div class="col-xs-4 duration">{{route.duration}}</div>
+  </div>
+</div>

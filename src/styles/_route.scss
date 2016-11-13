@@ -1,4 +1,8 @@
-.itinerary-short {
+.route-list {
+
+}
+
+.route-short {
   padding: 1rem;
   border-bottom: 1px solid rgba(0,0,0,0.1);
 
@@ -19,6 +23,10 @@
     font-weight: 600;
   }
 
+  .cities {
+    color: $muted-color;
+  }
+
   .info {
     color: $muted-color;
 
@@ -27,30 +35,11 @@
       white-space: nowrap;
     }
 
-    .transport, .stops {
+    .transport {
       text-overflow: ellipsis;
-      max-width: 50%;
-      float: left;
-    }
-
-    .stops {
-      padding-left: .5rem;
     }
   }
 }
-.itinerary-short.highlighted {
+.route-short.highlighted {
   background-color: $highlighted-bg;
-}
-
-.itinerary-summary {
-  .close-button {
-    @extend .close;
-    float: none;
-    text-align: right;
-    padding: 0 .3rem;
-    opacity: .3;
-  }
-  .close-button:hover {
-    opacity: .5;
-  }
 }
