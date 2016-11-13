@@ -20,6 +20,13 @@
     z-index: 2;
     box-shadow: $shadow;
     overflow: auto;
+
+    a,
+    a:focus,
+    a:hover {
+      color: $selected-color;
+      text-decoration: underline;
+    }
   }
   .right-side {
     right: 0;

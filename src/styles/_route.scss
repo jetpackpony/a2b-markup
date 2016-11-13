@@ -1,3 +1,4 @@
+// A top-level item in the list of routes
 .route-item {
   position: relative;
   margin: 0;
@@ -7,7 +8,7 @@
     background-color: $highlighted-bg;
   }
 
-
+  // A path showing stops on the left of routes list
   .path {
     $path-color: $higllighted-color;
 
@@ -57,8 +58,6 @@
 }
 
 .route-short {
-  padding: 1rem;
-
   .price, .duration {
     @extend .text-xs-right;
   }
@@ -91,5 +90,30 @@
     .transport {
       text-overflow: ellipsis;
     }
+  }
+}
+
+.route-short, .route-details, .company-contacts {
+  padding: 1rem;
+}
+
+.route-summary {
+  border-bottom: $card-border;
+}
+
+.route-details {
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.5);
+  }
+}
+
+.company-contacts {
+  p {
+    margin-bottom: .3rem;
+  }
+  .links {
+    margin-bottom: 1rem;
   }
 }

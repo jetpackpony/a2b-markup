@@ -10,10 +10,10 @@ title: Itinerary list
   </div>
   <div class="col-xs-8 right-side">
   </div>
-  <div class="col-xs-4 details-slider" id="itinerary-details">
+  <div class="col-xs-4 details-slider hidden" id="itinerary-details">
     {{> itinerary-details itinerary=itineraries.[3] routes=routes}}
   </div>
-  <div class="col-xs-4 details-slider hidden" id="route-details">
-    {{> route-details}}
+  <div class="col-xs-4 details-slider" id="route-details">
+    {{> route-details route=routes.[1]}}
   </div>
 </div>

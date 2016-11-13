@@ -42,16 +42,3 @@
     background-color: $highlighted-bg;
   }
 }
-
-.itinerary-summary {
-  .close-button {
-    @extend .close;
-    float: none;
-    text-align: right;
-    padding: 0 .3rem;
-    opacity: .3;
-  }
-  .close-button:hover {
-    opacity: .5;
-  }
-}

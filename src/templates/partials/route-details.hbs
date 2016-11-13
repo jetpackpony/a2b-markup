@@ -1,1 +1,23 @@
-Route details
+<div class="route-summary">
+  <div class="close-button">&times;</div>
+  {{> route-short route=route}}
+</div>
+<div class="route-details">
+  <h3>Timetable</h3>
+  <p>{{route.timetable}}</p>
+  <h3>Description</h3>
+  <p>{{route.description}}</p>
+</div>
+<div class="alert alert-warning">
+  Price and timetable could change. Please contact the transpotation company for details.
+</div>
+<div class="route-details company-contacts">
+  <h3>Contact {{route.company-name}}</h3>
+  <div class="links">
+    <p><a href="#">{{route.company-email}}</a></p>
+    <p><a href="#">{{route.company-phone}}</a></p>
+    <p><a href="#">{{route.company-website}}</a></p>
+  </div>
+  <h3>About {{route.company-name}}</h3>
+  <p>{{route.company-description}}</p>
+</div>
