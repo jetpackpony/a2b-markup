@@ -19,7 +19,8 @@
     left: 0;
     z-index: 2;
     box-shadow: $shadow;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 
     a,
     a:focus,
