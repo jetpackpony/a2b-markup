@@ -20,6 +20,7 @@ $shadow: 4px 0 4px rgba(64,63,63,.4);
     left: 0;
     z-index: 2;
     box-shadow: $shadow;
+    overflow: auto;
   }
   .right-side {
     right: 0;

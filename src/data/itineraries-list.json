@@ -1,6 +1,77 @@
 {
   "itineraries": [
-    { "title": "test1" },
-    { "title": "test2" }
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct",
+      "highlighted": true
+    },
+    {
+      "company-name": "AsiaLines + WaterCamb",
+      "price": "21.30",
+      "transport": "bus+ferry",
+      "duration": "12 hours",
+      "stops": "2 stops"
+    },
+    {
+      "company-name": "Giant Express + AsiaLines + WaterCamb",
+      "price": "133",
+      "transport": "bus+ferry+helicopter",
+      "duration": "23h 15m",
+      "stops": "24 stops"
+    },
+    {
+      "company-name": "Giant Express + AsiaLines + WaterCamb + Something Else + Something Else + Something Else + Something Else + Something Else + Something Else",
+      "price": "193923",
+      "transport": "bus+ferry+helicopter+bus+ferry+helicopterbus+ferry+helicopter",
+      "duration": "2345h 25999m",
+      "stops": "23234 stops",
+      "highlighted": true
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct",
+      "highlighted": true
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    }
   ]
 }
