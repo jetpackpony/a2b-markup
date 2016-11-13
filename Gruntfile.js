@@ -49,7 +49,7 @@ module.exports = function(grunt) {
         },
       },
       assemble: {
-        files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml}'],
+        files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,json,yml}'],
         tasks: ['assemble']
       },
       copy: {
