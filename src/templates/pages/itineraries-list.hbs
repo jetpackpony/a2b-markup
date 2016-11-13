@@ -4,7 +4,9 @@ title: Itinerary list
 {{> mini-search-form}}
 <div class="row bottom-split">
   <div class="col-xs-4 left-side">
-    {{> itinerary-list}}
+    {{#each itineraries-list.itineraries}}
+      {{> itinerary-short}}
+    {{/each}}
   </div>
   <div class="col-xs-8 right-side">
   </div>

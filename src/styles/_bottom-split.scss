@@ -14,16 +14,15 @@ $shadow: 4px 0 4px rgba(64,63,63,.4);
     position: absolute;
     top: 0;
     bottom: 0;
+    padding: 0;
   }
   .left-side {
     left: 0;
-    padding-bottom: 15px;
     z-index: 2;
     box-shadow: $shadow;
   }
   .right-side {
     right: 0;
-    padding: 0;
     background-image: url("#{$images}/map.png");
   }
 
