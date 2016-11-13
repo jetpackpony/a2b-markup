@@ -1,6 +1,6 @@
 .itinerary-short {
   padding: 1rem;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: $card-border;
 
   .price, .duration {
     @extend .text-xs-right;
@@ -37,9 +37,10 @@
       padding-left: .5rem;
     }
   }
-}
-.itinerary-short.highlighted {
-  background-color: $highlighted-bg;
+
+  &.highlighted {
+    background-color: $highlighted-bg;
+  }
 }
 
 .itinerary-summary {

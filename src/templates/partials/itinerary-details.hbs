@@ -4,8 +4,18 @@
 </div>
 <div class="route-list">
   {{#each routes as |route index|}}
-    <div class="route-item">
-      {{> route-short route=route}}
+    <div class="route-item
+     {{#if route.highlighted}}
+      highlighted
+    {{/if}}
+      ">
+
+      <div class="path">
+        <span>&nbsp;</span>
+      </div>
+      <div class="route-container">
+        {{> route-short route=route}}
+      </div>
     </div>
   {{/each}}
 </div>
