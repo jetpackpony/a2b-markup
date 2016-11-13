@@ -85,6 +85,7 @@
       "company-email": "testme@gmail.com",
       "company-phone": "+1 (888) 663-98-76",
       "company-website": "http://testme.com/",
+      "company-description": "Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow!",
       "highlighted": true
     },
     {
@@ -97,7 +98,8 @@
       "description": "There are many variations of passages of Lorem Ipsum",
       "company-email": "testme@gmail.com",
       "company-phone": "+1 (888) 663-98-76",
-      "company-website": "http://testme.com/"
+      "company-website": "http://testme.com/",
+      "company-description": "Such delays. Much slow! Wow!"
     },
     {
       "company-name": "Giant Express",
@@ -110,6 +112,7 @@
       "company-email": "testme@gmail.com",
       "company-phone": "+1 (888) 663-98-76",
       "company-website": "http://testme.com/",
+      "company-description": "Such delays. Much slow! Wow!",
       "highlighted": true
     }
   ]
