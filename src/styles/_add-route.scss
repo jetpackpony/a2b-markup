@@ -2,10 +2,13 @@
 .add-route {
   $pad: 1rem;
   .back-button {
-    padding: $pad;
-
+    padding: $pad $pad 0 $pad;
   }
   .carousel-item {
     padding: $pad;
+
+    label .form-text {
+      margin: 0;
+    }
   }
 }

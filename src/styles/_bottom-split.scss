@@ -28,6 +28,14 @@
       color: $selected-color;
       text-decoration: underline;
     }
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:focus {
+      color: #fff;
+      text-shadow: none;
+      background-color: $selected-color;
+      border: .05rem solid $selected-color;
+    }
   }
   .right-side {
     right: 0;
