@@ -17,7 +17,20 @@ $left-side-size: 4;
   .close-button:hover {
     opacity: .5;
   }
-}
-.details-slider.hidden {
-  left: (100% / 12 * $left-side-size * -1) - 10;
+
+  @include media-breakpoint-up(xs) {
+    &.hidden {
+      left: (100% / 12 * 6 * -1) - 10;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    &.hidden {
+      left: (100% / 12 * 5 * -1) - 10;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    &.hidden {
+      left: (100% / 12 * 4 * -1) - 10;
+    }
+  }
 }

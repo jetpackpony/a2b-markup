@@ -16,6 +16,7 @@
     padding: 0;
   }
   .left-side {
+    @extend .col-xs-6, .col-lg-5, .col-xl-4;
     left: 0;
     z-index: 2;
     box-shadow: $shadow;
@@ -38,6 +39,7 @@
     }
   }
   .right-side {
+    @extend .col-xs-6, .col-lg-7, .col-xl-8;
     right: 0;
     background-image: url("#{$images}/map.png");
   }
