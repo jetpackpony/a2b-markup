@@ -1,0 +1,120 @@
+{
+  "itineraries": [
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct",
+      "highlighted": true
+    },
+    {
+      "company-name": "AsiaLines + WaterCamb",
+      "price": "21.30",
+      "transport": "bus+ferry",
+      "duration": "12 hours",
+      "stops": "2 stops"
+    },
+    {
+      "company-name": "Giant Express + AsiaLines + WaterCamb",
+      "price": "133",
+      "transport": "bus+ferry+helicopter",
+      "duration": "23h 15m",
+      "stops": "24 stops"
+    },
+    {
+      "company-name": "Giant Express + AsiaLines + WaterCamb + Something Else + Something Else + Something Else + Something Else + Something Else + Something Else",
+      "price": "193923",
+      "transport": "bus+ferry+helicopter+bus+ferry+helicopterbus+ferry+helicopter",
+      "duration": "2345h 25999m",
+      "stops": "23234 stops"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct",
+      "highlighted": true
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "stops": "direct"
+    }
+  ],
+  "routes": [
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "cities": "Bangkok → Surat Thani",
+      "timetable": "7:00 AM, 8:00 PM",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "company-email": "testme@gmail.com",
+      "company-phone": "+1 (888) 663-98-76",
+      "company-website": "http://testme.com/",
+      "company-description": "Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow! Such delays. Much slow! Wow!",
+      "highlighted": true
+    },
+    {
+      "company-name": "AsiaLines",
+      "price": "100",
+      "transport": "train",
+      "duration": "1h 25m",
+      "cities": "Bangkokoksdkfasdf → Surat Thani ksjflaaskdjf askdfjk askdfja ksajdf",
+      "timetable": "7:00 AM, 8:00 PM",
+      "description": "There are many variations of passages of Lorem Ipsum",
+      "company-email": "testme@gmail.com",
+      "company-phone": "+1 (888) 663-98-76",
+      "company-website": "http://testme.com/",
+      "company-description": "Such delays. Much slow! Wow!"
+    },
+    {
+      "company-name": "Giant Express",
+      "price": "10",
+      "transport": "bus",
+      "duration": "1h 25m",
+      "cities": "Bangkok → Surat Thani",
+      "timetable": "7:00 AM, 8:00 PM",
+      "description": "There are many variations of passages of Lorem Ipsum",
+      "company-email": "testme@gmail.com",
+      "company-phone": "+1 (888) 663-98-76",
+      "company-website": "http://testme.com/",
+      "company-description": "Such delays. Much slow! Wow!",
+      "highlighted": true
+    }
+  ]
+
+}
