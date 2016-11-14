@@ -34,8 +34,21 @@
     .btn-primary:focus {
       color: #fff;
       text-shadow: none;
+      background-color: $selected-color-shade;
+      border: .05rem solid $selected-color-shade;
+    }
+    .btn-primary:hover {
       background-color: $selected-color;
       border: .05rem solid $selected-color;
+    }
+    .btn-primary.highlighted,
+    .btn-primary.highlighted:focus {
+      background-color: $highlighted-color-shade;
+      border: .05rem solid $highlighted-color-shade;
+    }
+    .btn-primary.highlighted:hover {
+      background-color: $highlighted-color;
+      border: .05rem solid $highlighted-color;
     }
   }
   .right-side {

@@ -1,0 +1,66 @@
+<form>
+  <div class="form-group row">
+    <label for="transportType" class="details-left col-form-label">Transport <span class="required">*</span></label>
+    <div class="details-right">
+      <select class="form-control" id="transportType">
+        <option disabled selected></option>
+        <option>Bus</option>
+        <option>Train</option>
+        <option>Ferry</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="price" class="details-left col-form-label">Price <span class="required">*</span></label>
+    <div class="details-right">
+      <div class="input-group">
+        <div class="input-group-addon">$</div>
+        <input type="number" class="form-control" id="price" placeholder="15">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="duration" class="details-left col-form-label">Duration <span class="required">*</span></label>
+    <div class="details-right">
+      <div class="row">
+        <div class="col-xs-6 duration-hours">
+          <div class="input-group">
+            <input type="number" class="form-control" id="duration-hours" min="0" max="72" step="1" placeholder="3">
+            <div class="input-group-addon">h</div>
+          </div>
+        </div>
+        <div class="col-xs-6 duration-minutes">
+          <div class="input-group">
+            <input type="number" class="form-control" id="duration-minutes" min="0" max="59" step="15" placeholder="0">
+            <div class="input-group-addon">m</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="timetable" class="details-left col-form-label">Timetable <span class="required">*</span></label>
+    <div class="details-right">
+      <input type="text" class="form-control" id="timetable" placeholder="7:00AM, 9:00PM">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <textarea class="form-control" id="description" rows="3" placeholder="Comfortable VIP Van, TV, Wi-fi, Water, polite drivers"></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="company-name">Transport Company Name <span class="required">*</span></label>
+    <input type="text" class="form-control" id="company-name" placeholder="AsiaLines">
+  </div>
+
+  <div class="form-group">
+    <label for="company-description">Transport Company contacts</label>
+    <textarea class="form-control" id="company-description" rows="3" placeholder="Phone, website, email, office address"></textarea>
+  </div>
+  <button class="btn btn-primary float-xs-left">&lt; Back</button>
+  <button class="btn btn-primary highlighted float-xs-right">Submit</button>
+</form>

@@ -13,4 +13,22 @@
       margin: 0;
     }
   }
+
+  .details-left {
+    @extend .col-xs-4;
+  }
+  .details-right {
+    @extend .col-xs-8;
+  }
+
+  .duration-hours {
+    padding-right: 7px;
+  }
+  .duration-minutes {
+    padding-left: 8px;
+  }
+
+  span.required {
+    color: $highlighted-color;
+  }
 }
