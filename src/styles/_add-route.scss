@@ -3,9 +3,17 @@
 }
 .add-route {
   $pad: 1rem;
-  .back-button {
+  .header {
     padding: $pad $pad 0 $pad;
+
+    h1 {
+      font-size: 1.7rem;
+      small {
+        float: right;
+      }
+    }
   }
+
   .carousel-item {
     padding: $pad;
 

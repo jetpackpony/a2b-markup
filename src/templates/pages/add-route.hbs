@@ -4,9 +4,15 @@ title: Add Route
 <div class="row bottom-split add-route-form">
   <div class="left-side">
     <div class="add-route">
+      <div class="header">
+        <h1>
+          Adding a route
+          <small class="text-muted">Step 1 of 3</small>
+        </h1>
+      </div>
       <div class="carousel">
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <div class="alert alert-warning">
               At the moment you can only add routes in 11 countries in South-East Asia: Vietnam, Cambodia, Laos, Myanmar, Thailand, Malaysia, Brunei, East Timor, Indonesia, Singapore, Philippines
             </div>
@@ -30,7 +36,7 @@ title: Add Route
           <div class="carousel-item">
             {{> add-route-details}}
           </div>
-          <div class="carousel-item active">
+          <div class="carousel-item">
             {{> add-route-thanks}}
           </div>
         </div>
