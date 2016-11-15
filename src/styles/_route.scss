@@ -1,4 +1,7 @@
 // A top-level item in the list of routes
+.route-list .route-item {
+  cursor: pointer;
+}
 .route-item {
   position: relative;
   margin: 0;
