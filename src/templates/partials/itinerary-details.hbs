@@ -1,14 +1,12 @@
-<div class="itinerary-summary">
-  <div class="close-button">&times;</div>
-  {{> itinerary-short itinerary=itinerary}}
-</div>
+<div class="close-button">&times;</div>
+{{> itinerary-short itinerary=itinerary}}
 <div class="route-list">
   {{#each routes as |route index|}}
     <div class="route-item
-     {{#if route.highlighted}}
-      highlighted
-    {{/if}}
-      ">
+      {{#if route.highlighted}}
+        highlighted
+      {{/if}}
+    ">
 
       <div class="path">
         <span>&nbsp;</span>
