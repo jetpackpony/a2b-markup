@@ -4,6 +4,13 @@ title: Itinerary list
 {{> mini-search-form}}
 <div class="row bottom-split">
   <div class="left-side">
+    <div class="direct-switch">
+      <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">Show direct options only</span>
+      </label>
+    </div>
     {{#each itineraries as |itinerary|}}
       {{> itinerary-short itinerary=itinerary}}
     {{/each}}
