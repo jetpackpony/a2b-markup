@@ -16,3 +16,11 @@
 
 @import "_add-route.scss";
 @import "_autocomplete.scss";
+
+/*
+ * markup-specific things
+ */
+
+.bottom-split .right-side {
+  background-image: url("#{$images}/map.png");
+}

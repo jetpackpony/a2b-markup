@@ -11,9 +11,11 @@ title: Itinerary list
         <span class="custom-control-description">Show direct options only</span>
       </label>
     </div>
-    {{#each itineraries as |itinerary|}}
-      {{> itinerary-short itinerary=itinerary}}
-    {{/each}}
+    <div class="itineraries-list">
+      {{#each itineraries as |itinerary|}}
+        {{> itinerary-short itinerary=itinerary}}
+      {{/each}}
+    </div>
   </div>
   <div class="right-side">
   </div>
