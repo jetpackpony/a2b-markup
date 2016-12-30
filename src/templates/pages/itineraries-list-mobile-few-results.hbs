@@ -1,0 +1,23 @@
+---
+title: Itinerary list - few results
+isMobile: true
+isNoPicture: true
+---
+{{> mini-search-form}}
+<div class="row bottom-single">
+  <div class="single-column">
+    <div class="error alert alert-danger">
+      Please specify locations in the form above
+    </div>
+  </div>
+  <div class="body-shadow hidden">
+  </div>
+  <div class="bottom-single-overlay hidden">
+    <div class="details-slider hidden" id="itinerary-details">
+      {{> itinerary-details itinerary=itineraries.[3] routes=routes}}
+    </div>
+    <div class="details-slider hidden" id="route-details">
+      {{> route-details route=routes.[1]}}
+    </div>
+  </div>
+</div>
