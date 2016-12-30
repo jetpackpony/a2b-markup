@@ -19,10 +19,12 @@ title: Itinerary list
   </div>
   <div class="right-side">
   </div>
-  <div class="details-slider hidden" id="itinerary-details">
-    {{> itinerary-details itinerary=itineraries.[3] routes=routes}}
-  </div>
-  <div class="details-slider hidden" id="route-details">
-    {{> route-details route=routes.[1]}}
+  <div class="sliders">
+    <div class="details-slider hidden" id="itinerary-details">
+      {{> itinerary-details itinerary=itineraries.[3] routes=routes}}
+    </div>
+    <div class="details-slider hidden" id="route-details">
+      {{> route-details route=routes.[1]}}
+    </div>
   </div>
 </div>
