@@ -3,8 +3,18 @@
     <img src="assets/images/a2b-logo-min.png" alt="A2B Logo">
   </a>
   <div class="nav navbar-nav float-xs-right">
-    <a class="nav-item nav-link active" href="/welcome.html">Welcome <span class="sr-only">(current)</span></a>
-    <a class="nav-item nav-link" href="/search.html">Search</a>
-    <a class="nav-item nav-link" href="/login.html">Login</a>
+    {{#if isMobile}}
+      <button class="navbar-toggler" type="button"></button>
+    {{else}}
+      <a class="nav-item nav-link active" href="/welcome.html">Welcome <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="/search.html">Search</a>
+      <a class="nav-item nav-link" href="/login.html">Login</a>
+    {{/if}}
+  </div>
+  <div class="overlay-menu hidden">
+    <a href="/welcome.html">Home <span class="sr-only">(current)</span></a>
+    <a href="/search.html">Search</a>
+    <a href="/search.html">Add Route</a>
+    <a href="/login.html">About</a>
   </div>
 </nav>

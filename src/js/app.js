@@ -32,4 +32,9 @@ $(document).ready(function() {
   $('#route-details .close-button').click(function() {
     $('#route-details').addClass('hidden');
   });
+
+  // Toggle overlay menu
+  $('.navbar-toggler').click(function() {
+    $('.overlay-menu').removeClass('hidden');
+  });
 });
