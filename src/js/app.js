@@ -36,5 +36,10 @@ $(document).ready(function() {
   // Toggle overlay menu
   $('.navbar-toggler').click(function() {
     $('.overlay-menu').removeClass('hidden');
+    $('.ovelay-menu-shadow').removeClass('hidden');
+  });
+  $('.ovelay-menu-shadow').click(function() {
+    $('.overlay-menu').addClass('hidden');
+    $('.ovelay-menu-shadow').addClass('hidden');
   });
 });
