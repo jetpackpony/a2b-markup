@@ -13,7 +13,7 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{assets}}/css/app.css">
   </head>
-  <body>
+  <body class="{{#if isNoPicture}} no-picture {{/if}}">
     {{> nav}}
     <div class="container-fluid">
       {{> body }}

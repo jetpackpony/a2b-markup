@@ -1,9 +1,10 @@
 ---
 title: Itinerary list
+isMobile: true
 ---
 {{> mini-search-form}}
-<div class="row bottom-split">
-  <div class="left-side">
+<div class="row bottom-single">
+  <div class="single-column">
     <div class="direct-switch">
       <label class="custom-control custom-checkbox">
         <input type="checkbox" class="custom-control-input">
@@ -17,9 +18,9 @@ title: Itinerary list
       {{/each}}
     </div>
   </div>
-  <div class="right-side">
+  <div class="body-shadow hidden">
   </div>
-  <div class="sliders">
+  <div class="bottom-single-overlay hidden">
     <div class="details-slider hidden" id="itinerary-details">
       {{> itinerary-details itinerary=itineraries.[3] routes=routes}}
     </div>
